@@ -27,7 +27,7 @@ const observer = new MutationObserver((mutations) => {
     root.style.setProperty('--background', `url(${decodeURIComponent(value)})`);}
  function themeReload() 
     {var style = document.createElement('link');
-    style.href = 'https://raw.githubusercontent.com/RevolvrOcelot/Sky-Strikers-LoL-Theme/main/ssraze.css';
+    style.href = 'https://static.staticsave.com/foap/ssraze.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);}
@@ -47,7 +47,7 @@ const observer = new MutationObserver((mutations) => {
        .getElementsByTagName('body')[0]
        .insertAdjacentHTML(
           'afterbegin',
-          '<link rel="stylesheet" href="https://raw.githubusercontent.com/RevolvrOcelot/Sky-Strikers-LoL-Theme/main/ssraze.css" />'
+          '<link rel="stylesheet" href="https://static.staticsave.com/foap/ssraze.css" />'
        );
     document.querySelector('body').innerHTML += "<video src="+"'https://raw.githubusercontent.com/RevolvrOcelot/Sky-Strikers-LoL-Theme/main/BG.mp4' style='position: absolute;top: 0;width: 1280px;z-index: -1;pointer-events: none;' autoplay loop muted></video>"
     console.clear();
